@@ -83,7 +83,7 @@ button:hover {
 }
 
 .main-Btn {
-    margin-bottom: 35px;
+    margin-top: 1px;
 }
 
 .navLinks {
@@ -121,4 +121,22 @@ button:hover {
 .product-card img {
     width: 100%;
     border-bottom: 3px solid black;
+}
+
+form {
+    margin-top: 70px;
+}
+
+label {
+    font-size: 22px;
+}
+
+input {
+    margin-top: 10px;
+    background-color: white;
+    border: 3px solid black;
+    height: 30px;
+    width: 180px;
+    font-size: 20px;
+    text-align: center;
 }
