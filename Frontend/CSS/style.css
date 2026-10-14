@@ -161,16 +161,19 @@ main div h3 {
     background-color: white;
 }
 
-.acountDetailsForm {
+#accountDetailsForm {
+    margin-top: 70px;
     background-color: white;
 }
 
-.acountDetailsForm label {
+#accountDetailsForm label {
     font-size: 22px;
+    background-color: white;
 }
 
-.acountDetailsForm input{
-    background-color: rgb(137, 94, 21);
+#accountDetailsForm input {
+    margin-top: 10px;
+    background-color: rgb(216, 190, 142);
     border: 3px solid black;
     height: 30px;
     width: 300px;
