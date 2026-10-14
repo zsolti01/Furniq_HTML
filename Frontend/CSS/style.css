@@ -144,3 +144,19 @@ form input {
     text-align: center;
     border-radius: 20px;
 }
+
+main div {
+    border: 3px solid black;
+    height: 300px;
+    width: 375px;
+    float: left;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+main div h3 {
+    border-bottom: 3px solid black;
+    padding-bottom: 20px;
+    background-color: white;
+}
