@@ -20,8 +20,7 @@
 
     <hr>
 
-    <main>
-        <h1>Your profile</h1>
+    <main style="margin-top: 50px;">
 
         <div id="accountDetails" style="margin-right: 30px;">
             <!-- Account details -->
@@ -33,20 +32,47 @@
                 <label for="email">Email Address</label><br>
                 <input type="email" id="email" name="email" autocomplete="email" style="margin-bottom: 22px;"><br>
 
-                <label for="password">Password</label><br>
-                <input type="password" id="password" name="password" minlength="8" style="margin-bottom: 22px;"><br>
-
                 <label for="shippingAddress">Shipping address</label><br>
-                <input type="text" id="shippingAddress" name="shippingAddress" autocomplete="street-address">
+                <input type="text" id="shippingAddress" name="shippingAddress" autocomplete="street-address"
+                    style="margin-bottom: 32px;">
+
+                <button class="profileDivButton">Change password</button>
             </form>
         </div>
+
         <div id="orderHistory" style="margin-right: 30px;">
             <!-- Order history -->
             <h3>Order history</h3>
+
+            <p class="productsP">Your most recent order</p>
+
+            <br>
+
+            <img style="margin-top: -50px; background-color: white;"
+                src="https://img.butor1.hu/detailed/3098/table-houston-939_3098052.jpg?w=1600&h=1200&func=fit&org_if_sml=1"
+                alt="Your most recently ordered furniture">
+            <p class="exampleP" style="margin-top: 10px;">Wooden Table + 2 other products</p>
+            <p class="exampleP">Status: Delivered</p>
+            <p class="exampleP">490 990 Ft</p>
+            <button class="profileDivButton">View all</button>
         </div>
+
         <div id="wishlist">
             <!-- Wishlist -->
             <h3>Wishlist</h3>
+
+            <p class="productsP">Recently added</p>
+
+            <br>
+
+            <img style="margin-top: -50px; background-color: white;"
+                src="https://img.butor1.hu/detailed/5099/corner-sofa-cavfeni-104_5099462.jpg?w=460&h=345&p=fw"
+                alt="Your most recently wishlisted furniture">
+            <p class="exampleP" style="margin-top: 10px;">Modern Couch</p>
+            <p class="exampleP">Living room</p>
+            <p class="exampleP">199 990 Ft</p>
+            <button class="profileDivButton">View all</button>
+
         </div>
 
     </main>
