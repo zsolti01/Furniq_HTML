@@ -23,17 +23,30 @@
     <main>
         <h1>Your profile</h1>
 
-        <div style="margin-right: 30px;">
+        <div id="accountDetails" style="margin-right: 30px;">
             <!-- Account details -->
-             <h3>Account details</h3>
+            <h3>Account details</h3>
+            <form id="accountDetailsForm">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="name" autocomplete="name" style="margin-bottom: 22px;"><br>
+
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email" autocomplete="email" style="margin-bottom: 22px;"><br>
+
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" minlength="8" style="margin-bottom: 22px;"><br>
+
+                <label for="shippingAddress">Shipping address</label><br>
+                <input type="text" id="shippingAddress" name="shippingAddress" autocomplete="street-address">
+            </form>
         </div>
-        <div style="margin-right: 30px;">
+        <div id="orderHistory" style="margin-right: 30px;">
             <!-- Order history -->
-             <h3>Order history</h3>
+            <h3>Order history</h3>
         </div>
-        <div>
+        <div id="wishlist">
             <!-- Wishlist -->
-             <h3>Wishlist</h3>
+            <h3>Wishlist</h3>
         </div>
 
     </main>
