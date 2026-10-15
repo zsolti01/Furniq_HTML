@@ -1,5 +1,5 @@
 *{
-    background-color: #F5EDE6;
+    background-color: #ecdaca;
     font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
 }
 
@@ -14,11 +14,19 @@ body {
 }
 
 #logoMain {
-    width: 500px;
-    height: 250px;
+    width: 600px;
+    height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#mottoP {
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: -15px;
+    font-family: "Franklin Gothic Heavy", "Franklin Gothic", "ITC Franklin Gothic", sans-serif;
+    font-weight: 900;
 }
 
 button {
